@@ -14,3 +14,10 @@ Expected result:
 | <http://www.w3.org/2002/07/owl#sameAs> | <http://dbpedia.org/resource/Älvdalen> |
 -----------------------------------------------------------------------------------
 ```
+
+## Build with Maven & Run
+
+```
+mvn package
+java -jar target/examlple-jena-dbpedia-0.0.1-SNAPSHOT.jar 
+```
