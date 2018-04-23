@@ -1,6 +1,6 @@
 # example-jena-dbpedia
 
-It runs the following SPARQL query:
+This is the simplest example to SPARQL-query DBpedia using Apache Jena. It runs the following SPARQL query:
 ```
 SELECT ?prop ?place WHERE { <http://dbpedia.org/resource/%C3%84lvdalen> ?prop ?place .}
 ```
