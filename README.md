@@ -21,3 +21,13 @@ Expected result:
 mvn package
 java -jar target/examlple-jena-dbpedia-0.0.1-SNAPSHOT.jar 
 ```
+
+## Note
+
+When running the jar file, if you see
+```
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+```
+This only means the logger SLF4J is missing, and does not really matter.
